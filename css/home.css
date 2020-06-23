@@ -1,0 +1,90 @@
+ul{
+    list-style-type: none;
+    padding: 12;
+    background-color: black;
+    width: 100%;
+}
+
+li{
+    display: inline;
+  
+}
+li a {
+
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+li a:hover {
+  background-color: #4CAF50;
+}
+.active{
+    background-color: #4CAF50;
+}
+address { 
+  display: block;
+  font-style: italic;
+    font-size: 20px;
+} 
+.phone{
+    text-align: right;
+    position: absolute;
+    right: 33em;  
+    top: 15em; 
+    max-width: 20%;
+}
+.bold{
+    font-size: 20px;
+}
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.bg-image {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-side{
+    text-align: left;
+}
+
+.img1 { background-image: url("img1.jpg"); }
+.img2 { background-image: url("img2.jpg"); }
+.img3 { background-image: url("img3.jpg"); }
+.img4 { background-image: url("img4.jpg"); }
+.img5 { background-image: url("img5.jpg"); }
+.img6 { background-image: url("img6.jpg"); }
+
+h1{
+    text-align: center;
+}
+
+.bgcontainer{
+    
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size: 102px;
+}

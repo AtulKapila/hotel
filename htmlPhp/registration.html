@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>The restaurant</title>
+   
+    <style>
+        
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+  color: #4CAF50;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    display: block;
+    overflow: hidden;
+}
+    
+    </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a  href="discount.html">Discount</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a class="active" href="registration.html">Registration</a></li>
+    <li><a href="Accomodation.html">Accomodation</a></li>
+  <li style="float:right"><a href="login.php">Sign in</a></li>
+    <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+<hr>
+    <div class="container">
+        <h1>Reservation form </h1>
+    <form action="info.php" method="post" >
+        <div class="form-field">
+       <p> FIRSTNAME: <input type ="text" name="firstname" placeholder="please enter your firstname" > </p></div>
+        
+       <div class="form-field"> <p> LASTNAME: <input type="text" name="lastname" placeholder="please enter your lastname" ></p></div>
+        <div class="form-field"> <p>ROOMS: <input type="numbers" name="rooms"  placeholder="enter numbers"></p></div>
+       <div class="form-field"> <p> DATE: <input type="Date"></p></div><br>
+        <button class="btn">Submit</button>
+        
+        
+        
+        </form>
+    </div>
+    <div class="footer">
+  <p><small>&copy; Copyright 2020, Hotel.com</small></p>
+</div>
+    
+    
+</body>
+</html>

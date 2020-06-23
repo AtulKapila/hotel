@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+  color: #4CAF50;
+}
+
+    .footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+    div.name{
+        text-align: center;
+        text-decoration: none;
+    }
+    div.price{
+         text-align: center;
+        text-decoration: none;
+    }
+    .container {
+  position: relative;
+  text-align: center;
+}
+
+
+
+.hname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: 120px;
+}
+    img{
+        height: 300px;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active"href="Home.html">Home</a></li>
+  <li><a href="discount.html">Discount</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="Accomodation.html">Accomodation</a></li>
+ <li style="float:right"><a href="login.php">Sign in</a></li>
+    <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+<hr>
+<div class="container">
+  <img src="img1.jpg" alt="image">
+  
+  <div class="hname">Hotel name</div>
+</div>
+ <div class="footer">
+  <p><small>&copy; Copyright 2020, Hotel.com</small></p>
+</div>
+</body>
+</html>

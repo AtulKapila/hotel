@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+  color: #4CAF50;
+}
+div.product {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: auto;
+}
+
+div.product:hover {
+  border: 1px solid black;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.btn {background-color: silver; 
+  
+  color: white;
+  padding: 15px 33px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+}
+    div.btn:hover{
+        color: white;
+        background-color: black;
+    }
+    .footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+    div.name1{
+        text-align: center;
+        text-decoration: none;
+    }
+    div.price2{
+         text-align: center;
+        text-decoration: none;
+    }
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+    .row{
+        margin-left: 280px;
+    }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="discount.html">Discount</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a class="active" href="Accomodation.html">Accomodation</a></li>
+  <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+<hr>
+<h1 align="center">product</h1>
+    <div class="row">
+  <div class="column">
+    <img src="img1.jpg" alt="img" style="width:100%">
+  </div>
+  <div class="column">
+    <div class="name1">Name: </div>
+        <div class="price2">Price: </div>
+  <div class="desc">Add a description of the image here</div>
+        <div class="btn" ><a href="registration.html">Click For Booking</a>
+  </div>
+
+ <div class="footer">
+  <p><small>&copy; Copyright 2020, Hotel.com</small></p>
+</div>
+        </div>
+    </div>
+</body>
+</html>

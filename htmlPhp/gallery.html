@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+color: #4CAF50;
+}
+    
+    .bg-image {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+
+.img1 { background-image: url("img1.jpg"); }
+.img2 { background-image: url("img2.jpg"); }
+.img3 { background-image: url("img3.jpg"); }
+.img4 { background-image: url("img4.jpg"); }
+.img5 { background-image: url("img5.jpg"); }
+.img6 { background-image: url("img6.jpg"); }
+    
+    </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a  href="discount.html">Discount</a></li>
+  <li><a href="contact.html">Contact</a></li>
+    <li><a class="active"href="gallery.html">Gallery</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="Accomodation.html">Accomodation</a></li>
+  <li style="float:right"><a href="login.php">Sign in</a></li>
+    <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+<hr>
+        <h1 align ="center">Image Gallery</h1>
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+        
+          <div class="footer">
+  <p><small>&copy; Copyright 2020, Hotel.com</small></p>
+</div>
+    </body>
+</html>
